@@ -97,3 +97,12 @@ Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
   [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
   Rendered posts/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 29.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts" for 73.183.195.24 at 2018-04-13 16:22:01 +0000
+Cannot render console from 73.183.195.24! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.2ms)
